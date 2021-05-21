@@ -1,0 +1,84 @@
+body{
+    margin:0;
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 981px;
+    margin: auto;
+
+}
+.post{
+    height:779px;
+    width: 567px;
+    background-color: white;
+    margin:auto;
+}
+
+.header{
+    height:65px;
+    display: flex;
+    margin: 5px;
+   justify-content: space-between;  
+}
+
+.left{
+    display:flex;
+    padding: 10px; 
+}
+
+#ellipsis{
+    padding:15px;
+    padding-top: -4;
+    font-size: 30px;
+}
+
+#html5{
+    font-size: 45px;
+}
+
+div.header h1{
+    font-size: 18px;
+    display: flex;
+    line-height: 1px;
+    font-weight: bold;
+    
+}
+div.header h2{
+    font-size: 15px;
+}
+.header-text{
+  margin-top: 5px;
+}
+
+p{
+    padding: 5px;
+    margin-left: 2px;
+    font-size: 20px;
+}
+div.image img{
+    width: 100%;
+
+}
+.icons{
+    font-size: 24px;
+    display: flex;
+    padding: 5px;
+}
+.icon{
+    padding: 5px;
+}
+
+
+div.footer{
+    height:220px;
+    padding: 5px;
+    justify-content: space-between;
+}
+#bookmark{
+    font-size: 24px;
+    float: right;
+    position:relative;
+    top:-40px;
+    padding-right: 10px;
+}
